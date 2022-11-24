@@ -9,3 +9,7 @@ def index():
 @app.route("/dev")
 def index():
     return "This feature is developed in dev branch"
+
+@app.route("/items-list")
+def items_list():
+    return {"items" : ["A", "B", "C", "D", "E", "F"]}
