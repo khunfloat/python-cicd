@@ -17,3 +17,7 @@ def items_list():
 @app.route("/teacher-list")
 def teacher_list():
     return {"teachers" : ["Sompong", "Somsak", "Danny", "Pannika"]}
+
+@app.route("/list-assignments")
+def list_assignments():
+    return "This function was created in branch [issue53]"
