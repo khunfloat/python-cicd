@@ -21,3 +21,7 @@ def teacher_list():
 @app.route("/list-assignments")
 def list_assignments():
     return "This function was created in branch [issue53]"
+
+@app.route("/get-beam")
+def get_beam():
+    return "A footprint of [issue53] branch"
