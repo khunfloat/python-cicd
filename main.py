@@ -13,3 +13,7 @@ def index():
 @app.route("/items-list")
 def items_list():
     return {"items" : ["A", "B", "C", "D", "E", "F"]}
+
+@app.route("/list-assignments")
+def list_assignments():
+    return "This function was created in branch [issue53]"
