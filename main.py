@@ -25,3 +25,7 @@ def list_assignments():
 @app.route("/get-beam")
 def get_beam():
     return "A footprint of [issue53] branch"
+
+@app.route("get-popbus")
+def get_popbus():
+    return "Popbus is the best of Chula!"
