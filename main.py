@@ -13,3 +13,7 @@ def index():
 @app.route("/items-list")
 def items_list():
     return {"items" : ["A", "B", "C", "D", "E", "F"]}
+
+@app.route("/teacher-list")
+def teacher_list():
+    return {"teachers" : ["Sompong", "Somsak", "Danny", "Pannika"]}
